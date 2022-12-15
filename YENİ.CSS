@@ -1,0 +1,182 @@
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+html{box-sizing: border-box;}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+     background-color: white;
+    border-radius: 30px;
+    width: 80%;
+    position: relative;
+    left: 110px;
+    
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar-icon {
+    justify-self: center;
+}
+
+.logo {
+    justify-self: center;
+}
+
+.navbar-list li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url("../home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: -70px;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    background-color: black;
+
+    color: white
+}
+
+button a {
+    color: white
+}
+
+.gövde {
+    position: absolute;
+    top: 40%;
+    left: 60px;
+    color: white
+}
+
+.navbar-list a {
+    color: black;
+}
+
+
+.navbar-list li:hover {
+    border-bottom: 2px solid orange;
+}
+
+.order-menü {
+   background-color: rgb(210, 22, 122);
+    width:100%;
+    height:100vh;
+    
+    
+    
+  
+}
+
+.menü img{width:200px;}
+
+.contact-harita img:hover{transform:scale(1.2); }
+.menü{background-color:white; height:350px; padding:20px; margin:10px; border-radius:20px; }
+
+.menüler{display: flex; position:relative; left:15px; }
+.ekle{border-radius:none;}
+.our img:hover  {transform:scale(1.2)}
+.resim img:hover { transform:scale(1.2)}
+
+.kırmızı{color:black;margin-left:2px;}
+.kırmızı,.siyah{display:inline-block;}
+.siyah{color:white;}
+.contact{background-color: rgb(210, 22, 122); padding-left:40px;}
+.harita h1{position: relative; right:150px;}
+
+.contact-resim img {width: 500px;}
+.contact hr{border-bottom:2px solid black; width:1000px;}
+.contactresim-yazı{display:flex;}
+.order-menü .başlık{margin-left:35px;}
+.contact button{font-size:25px;}
+.contact-yazı2{padding:10px;}
+.customers img{width:120px;border-radius:90px; margin-top:10px;}
+.customers{display: flex; text-align: center; background-color: rgb(210, 22, 122); }
+.virgül{ background-color:white; padding:60px;   margin:20px; border-radius:10px;}
+
+
+.fa-star{color:yellow;}
+.sarı{color:yellow;}
+.isim{color: rgb(210, 22, 122);}
+small{color:black; margin-left:6px;}
+.harita h1{color:white; font-size:40px;}
+li{list-style-type: none;}
+.contact-harita{display: grid;  grid-template-columns: repeat(4,1fr); background-color:rgb(210, 22, 122) ; flex-wrap: wrap; text-align:center}
+.iletişim li{padding-bottom:20px; }
+.iletişim h1{margin-bottom:10px;}
+.iletişim ul li input{width:100%; padding:10px;}
+.iletişim  {  grid-column: 3/3;
+    justify-self:center ;
+    align-self: center;
+    width: 50%;
+
+     background-color: black;
+     color:white;
+     width:580px;
+     height:350px;
+     position:relative;
+     top:22px;
+}
+form{width:100%;}
+.iletişim button {background-color:white; color:black}
+.our img{width:320px;}
+.our{width:320px;}
+.ourblogs{display: flex; } 
+small{margin-left:4px;}
+.ourblogs-section h1{font-size: 40px;}
+.ourblogs-section{background-color:rgb(210, 22, 122);height:100vh;}
+.our{background-color: white; margin:10px; height:400px;  margin:8px; }
+.büyükharfler{text-align: center; font-size:25px;}
+.ek{margin-top:10px; color:gainsboro}
+
+section.footer{background-color:black; height:50vh;width:100vw  }
+.footer input{color:black}
+.footer button{background-color:rgb(210, 22, 122);}
+.giriş{
+     display: flex; justify-content: center; position:relative; top:20px;}
+    .giriş input{width:20%; border-radius:20px;}
+
+
+.socialmedia{  display: flex ;  ;position:relative; left:420px;  top:40px; }
+.socialmedia i{font-size: 30px;background-color:black; color: white;  border:2px solid white;border-radius: 40px;}
+
+.footerlist ul { display: flex; justify-content: center; position:relative; top:40px;  }
+
+.footerlist ul li{padding:15px; background-color: rgb(210, 22, 122); margin-right:4px;}
+
+.footeryazı p{color:white;}
+.footeryazı small{color: rgb(210, 22, 122);}
+.footeryazı{position: relative; display: flex; justify-content: center;}
+
+@media (max-width:991px)
+{
+    html{font-size:55px;}
+    .navbar{width:600px;}
+    .navbar li{font-size:10px;}
+    .navbar i{font-size:10px;}
+}
+.ourblogs{ display:flex; justify-content:center ;}
